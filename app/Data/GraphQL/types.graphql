@@ -1,0 +1,13 @@
+type Role {
+  id: ID
+  name: String
+}
+
+type User {
+  username: String
+  role: Role
+}
+
+type Query {
+  allUsers: [User]
+}
