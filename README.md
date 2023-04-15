@@ -3,22 +3,12 @@
 Simple example of using dataloader with adonis.js + apollo graphql
 
 Files/lines of interest:
-```bash
-# File for defining loaders
-app/Data/Loaders.js
-```
-```bash
-# Convenient factory function
-app/Helpers/loaders/createLoader.js
-```
-```bash
-# Creating new loaders for each new request
-start/routes.js:25
-```
-```bash
-# Using a loader
-app/Data/GraphQL/resolvers.js:12
-```
+
+| Description | File |
+| --- | --- |
+| Declaring loaders | [app/Data/Loaders.js](app/Data/Loaders.js) |
+| Instantiating loaders per request | [start/routes.js:25](start/routes.js#L25) |
+| Using loader in resolver | [app/Data/GraphQL/resolvers.js:12](app/Data/GraphQL/resolvers.js#L12) |
 
 ## Setup
 1. `git clone` this repo
